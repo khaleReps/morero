@@ -1,0 +1,48 @@
+
+├── Dockerfile
+├── morero
+│   ├── app
+│   │   ├── controllers
+│   │   ├── core
+│   │   ├── models
+│   │   └── views
+│   │       └── home
+│   └── public
+│       ├── css
+│       ├── img
+│       └── js
+├── notes
+└── README.md
+
+
+__Files__
+
+README      - Github Documenetation file
+Dockerfile  - Docker setup file
+
+
+
+Public  
+= the root dir to your application. Containing the bootstrap files. Where your users will land
+App
+= containes Model, View and Controller,the init file for core functionality
+
+
+Core
+= Covers the url splitting and handle controllers
+
+Controller
+=  hold php files
+
+Models
+=
+
+Views
+= What you output to user
+
+
+
+
+<!-- Use docker -->
+
+docker-compose up -d
